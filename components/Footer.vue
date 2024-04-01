@@ -7,7 +7,7 @@
                     <a href="https://www.instagram.com/sunset_realtors">
                         <img src="public/assets/images/insta-icon.svg" class="h-[25px]" />
                     </a>
-                    <a class="https://twitter.com/broker_sunset?t=07Nj3WYKpGInESMut5Einw&s=09s">
+                    <a href="https://twitter.com/broker_sunset?t=07Nj3WYKpGInESMut5Einw&s=09s">
                         <img src="public/assets/images/twitter-icon.svg" class="h-[25px]" />
                     </a>
                     <a href="https://www.facebook.com/Sunset-Brokers-103757771898576">
