@@ -41,7 +41,8 @@ module.exports = {
         btn: { "theme": "#444444" },
         gray: {
           "theme": "#F2F2F2",
-          "2": "#444444"
+          "2": "#444444",
+          "border": "#717171"
         },
         viola: {
           "theme" : "#2F293E"

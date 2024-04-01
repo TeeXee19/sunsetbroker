@@ -34,6 +34,44 @@
             <p class="text-black font-normal text-[18px] text-center my-4 font-poppins">To be trusted partners in Real Estate investment.</p>
         </div>
     </section>
+    <section class="justify-items-center items-center py-8 px-2 md:px-2 pb-[80px] mx-[5%]">
+        <h3 class="font-Mt text-text-theme text-[40px] font-normal text-center">Competitive Advantage</h3>
+        <div class="grid grid-cols-3 justify-items-center">
+            <div class="w-[75%] py-[10%]">
+                <h3 class="text-primary-theme font-Mt font-medium text-[36px]">01</h3>
+                <h4 class="font-Mt font-medium text-[32px]">Higher Return Policy</h4>
+                <p class="font-poppins text-[14px]">One of our major goals is tonight's higher returns than the usual average financial. By getting properties that tend to appreciate faster.
+                </p>
+            </div>
+            <div class="w-[75%] py-[10%] border-x-[1px] px-[5%] border-gray-900">
+                <h3 class="text-primary-theme font-Mt font-medium text-[36px]">02</h3>
+                <h4 class="font-Mt font-medium text-[32px]">Good Locations</h4>
+                <p class="font-poppins text-[14px]">As one of the most important factors taken into consideration, we consider factors such as accessibility, proximity to amenities and security. </p>
+            </div>
+            <div class="w-[75%] py-[10%]">
+                <h3 class="text-primary-theme font-Mt font-medium text-[36px]">03</h3>
+                <h4 class="font-Mt font-medium text-[32px]">Customers Centricity</h4>
+                <p class="font-poppins text-[14px]">We believe here that every decision taken is clearly for the customer's benefit, based on the customer's taste, perceptions and expectation.</p>
+            </div>
+            <div class="w-[75%] py-[10%]">
+                <h3 class="text-primary-theme font-Mt font-medium text-[36px]">04</h3>
+                <h4 class="font-Mt font-medium text-[32px]">Investment Diversification</h4>
+                <p class="font-poppins text-[14px]">By strategizing we lower your portfolio's risk that will in return get you stable returns for the long term.</p>
+            </div>
+            <div class="w-[75%] py-[10%] border-x-[1px] px-[5%] border-gray-900">
+                <h3 class="text-primary-theme font-Mt font-medium text-[36px]">05</h3>
+                <h4 class="font-Mt font-medium text-[32px]">Low Cost</h4>
+                <p class="font-poppins text-[14px]">That properties are gotten at the best rate i.e. not costing as much as other properties of the same value.
+                </p>
+            </div>
+            <div class="w-[75%] py-[10%]">
+                <h3 class="text-primary-theme font-Mt font-medium text-[36px]">06</h3>
+                <h4 class="font-Mt font-medium text-[32px]">Safety and Transparency</h4>
+                <p class="font-poppins text-[14px]">By providing missing information that is needed we eradicate the possibilities of any misconceptions that will arise which will bring controversy in safety for the client.
+                </p>
+            </div>
+        </div>
+    </section>
     <section class="grid grid-cols-2 justify-items-center items-center py-8 md:px-[57px] pb-[80px] bg-gray-theme md:p-12 p-4">
         <div class="w-[65%]">
             <img src="public/assets/images/founder.svg" class="w-screen h-[100%]"/>
