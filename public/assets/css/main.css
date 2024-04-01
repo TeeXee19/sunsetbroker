@@ -1,0 +1,71 @@
+.bg-primary {
+  background-color: #131319;
+}
+
+.btn-primary {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: var(--Secondary-color, #d82e2e);
+  /* Sec button shadow */
+  box-shadow: 0px 4px 4px 0px rgba(216, 46, 46, 0.1);
+}
+
+.input-primary {
+  border-radius: 6px;
+  border: 1px solid var(--Gray-20, #cbd5e1);
+  background: var(--color-neutral-white, #fff);
+}
+
+.hero {
+  background-image: url(../assets/images/hero-img.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 621px;
+  background-position-y: top;
+  width: 100%;
+}
+
+.segoe {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-bg {
+  background: url(../images/about.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-bg {
+  background: url(../images/why.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vision-bg {
+  background: url(../images/vision-img.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-bg {
+  background: #fff5f4;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background: #ffce53;
+}
+
+/* @media screen {
+  .vision-bg {
+    background: url(/_nuxt/public/assets/images/vision-img.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }  
+} */
