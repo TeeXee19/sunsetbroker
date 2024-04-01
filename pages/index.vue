@@ -63,7 +63,7 @@
             <p>Investment group sold out</p>
             <button class="btn py-2 px-4 bg-btn-theme text-white">Sold Out</button>
         </div>
-        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-20 py-5 space-y-5 w-[90%]">
+        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-15 py-5 space-y-5 w-[90%]">
             <h3 class="font-bold text-[62px] text-primary-theme">3.5M</h3>
             <ul class="text-justify font-poppins text-[16px]">
                 <li>25% - 875,000</li>
@@ -73,7 +73,7 @@
             </ul>
             <button class="btn py-2 px-4 bg-primary-theme text-white">Join Now</button>
         </div>
-        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-20 py-5 space-y-5 w-[90%]">
+        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-15 py-5 space-y-5 w-[90%]">
             <h3 class="font-bold text-[62px] text-primary-theme">4.5M</h3>
             <ul class="text-justify font-poppins text-[14px]">
                 <li>25% - 1,125,000</li>

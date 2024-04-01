@@ -2,7 +2,11 @@
     <section class="py-8 px-6 md:px-[57px] pb-[80px] bg-[url('public/assets/images/aboutHero.svg')] bg-cover bg-no-repeat h-[70vh] flex flex-col-reverse">
         <div class="space-y-2 mx-[20px] border-l-[10px] border-primary-theme py-5 px-4">
             <h3 class="font-lt text-white lg:text-[48px] xl:text-7xl font-bold">About Us</h3>
+            <p class="text-white w-2/4 text-[25px]">
+            Sunset Realtors is a real estate brokerage cooperative company that provides services to clients with interested in real estate with our available plans, through land banking and Cooperative joint projects, to create wealth and asset in real estate. We welcome clients from every sphere of life and vocation to join our wealth creation vehicles.
+        </p>
         </div>
+       
     </section>
     
     <section class="grid grid-cols-2 justify-items-center items-center py-8 md:px-[57px] pb-[80px]">
