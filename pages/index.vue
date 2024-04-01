@@ -44,7 +44,7 @@
 </section>
 <section class="bg-white md:p-12 p-4">
     <h3 class="text-[24px] text-center text-text-theme font-bold segoe mx-auto w-2/4">
-        FREQUENTLY ASKED QUESTIONS
+        Investment Vehicles
     </h3>
     <Slider />
 </section>
