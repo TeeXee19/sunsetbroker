@@ -79,7 +79,7 @@
 </section>
 
 <section class="bg-white md:p-12 p-4">
-        <h3 class="text-[24px] text-center text-text-theme font-bold segoe mx-auto w-2/4">
+        <h3 class="text-[18px] md:text-[24px] text-center text-text-theme font-bold segoe mx-auto md:w-2/4">
             FREQUENTLY ASKED QUESTIONS
         </h3>
     <div class="w-[75%] items-center justify-items-center mx-auto">
