@@ -16,6 +16,7 @@ module.exports = {
         Mt: ['"Montserrat"', 'sans']
       },
       fontSize: {
+        'lt-base': '16px',
         'lt-md': '18px',
         'lt-h6': '42px',
         'lt-h5': '46px',

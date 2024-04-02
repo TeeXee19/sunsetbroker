@@ -1,9 +1,9 @@
 <template>
-<nav id="navigation" class="bg-white py-8 sm:px-0 md:px-0 md:py-8 sticky top-0 z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500  border-b border-200">
-    <div class="flex gap-8 items-center justify-between flex-wrap py-4 pt-0 pb-0 max-w-7xl mx-auto">
+<nav id="navigation" class="bg-white py-4 sm:px-0 md:px-0 md:py-2 sticky top-0 z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500  border-b border-200">
+    <div class="flex gap-8 items-center justify-between flex-wrap py-2 pt-0 pb-0 max-w-7xl mx-auto px-2 md:px-0">
 
         <NuxtLink to="/" class="flex items-center flex-no-shrink ">
-            <img src="public/assets/images/Logo1.png" class="h-[50px]" alt="logo" title="Go Home" />
+            <img src="public/assets/images/Logo1.png" class="h-[35px] md:h-[50px] w-fit" alt="logo" title="Go Home" />
         </NuxtLink>
 
         <div class="block md:hidden">
@@ -20,23 +20,23 @@
             </button>
         </div>
         <div :class="{ hidden: !isVisible }" class="gap-8 md:flex md:items-center md:w-auto md:ml-10 justify-between">
-            <div class="flex gap-8 space-x-6 p-4 pb-0 md:p-0 mt-4 flex-col md:flex-row md:mt-0 font-lt font-light normal text-lt-md text-text-theme">
-                <NuxtLink to="/" class="block">
+            <div class="flex gap-8 space-x-6 p-4 pb-0 md:p-0 mt-4 flex-col md:flex-row md:mt-0 font-lt font-light normal text-lt-base text-text-theme">
+                <NuxtLink to="/" class="block hover:border-b-2 hover:border-primary-theme">
                     Home
                 </NuxtLink>
-                <NuxtLink to="/about" class="block">
+                <NuxtLink to="/about" class="block hover:border-b-2 hover:border-primary-theme">
                     About Us
                 </NuxtLink>
-                <a href="#demo" class="block">
+                <a href="#investment" class="block hover:border-b-2 hover:border-primary-theme">
                     Investment Vehicles 
                 </a>
-                <a href="#demo" class="block">
+                <a href="#offers" class="block hover:border-b-2 hover:border-primary-theme">
                     Offers
                 </a>
-                <a href="#demo" class="block">
+                <a href="#demo" class="block hover:border-b-2 hover:border-primary-theme">
                     Investors Club
                 </a>
-                 <a href="#services" class="block">
+                 <a href="#contact" class="block hover:border-b-2 hover:border-primary-theme">
                     Contact
                 </a>
             </div>
