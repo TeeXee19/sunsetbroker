@@ -35,7 +35,8 @@ module.exports = {
         'inter-lg': '32px'
       },
       colors: {
-        primary: { "theme": "#FFA800" },
+        primary: { "theme": "#FFA800",
+            "2": "#ffd584" },
         secondary: { "theme": "#1B1725" },
         cream: { "theme": "#FFF9EB" },
         text: { "theme": "#616161" },

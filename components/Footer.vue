@@ -14,11 +14,11 @@
                      <img src="public/assets/images/facebook.svg" class="h-[25px]" />
                     </a>
                 </div>
-                <p class="font-inter text-[12px] font-[300] text-gray-theme2 sm:text-center">
-                    All rights reserved @  sunsetbrokers {{ currentYear }}
+                <p class="font-inter text-[12px] font-[300] text-gray-theme2 text-center">
+                    All rights reserved @Sunsetbrokers {{ currentYear }}
                 </p>
-                <p class="font-inter text-[12px] font-[300] text-gray-theme2 sm:text-center">
-                    By accessing and using this page you agree to the Terms & Condition and the Privacy Policy of sunset brokers.
+                <p class="font-inter text-[12px] font-[300] text-gray-theme2 text-center">
+                    By accessing and using this page you agree to the Terms & Condition and the Privacy Policy of Sunset Brokers.
                 </p>
             </div>
         </div>

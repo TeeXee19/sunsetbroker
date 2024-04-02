@@ -34,7 +34,7 @@
             <div class="col-span-1 justify-self-end hidden md:block">
                 <img src="public/assets/images/REMF.svg" class=" h-[100%]" />
             </div>
-            <div class="col-span-2 space-y-2">
+            <div class="col-span-2 space-y-[12%]">
                 <div>
                     <h3 class="font-Mt text-text-theme text-[18px] md:text-[24px] font-bold">REAL ESTATE MUTUAL FUNDS</h3>
                     <p class="font-poppins text-black-900 md:w-[67%] font-light text-[14px] my-4 text-left">The mutual funds investment, also known as the land banking. It also referred to as the “buy and hold investment”. This investment gives clients opportunity to leverage on land presales. Client can own a share percentage of a land as shareholders with a minimum of 25% price value of that land. Owning a property with friends and family to generate passive income. Group of 2 to 4 friends or family members can subscribe to our Walk in Wealth plan and own a property for passive income.</p>

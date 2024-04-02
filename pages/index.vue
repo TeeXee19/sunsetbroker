@@ -12,28 +12,7 @@
 
 <WhatWeDo />
 
-<section class="grid md:grid-cols-3 justify-items-center items-center py-8 px-2 md:px-2 space-y-4 pb-[80px] mx-[5%] gap-4">
-    <div class="rounded-tl-[64px] rounded-br-[64px] border border-2 border-primary-theme space-y-2 text-center justify-center md:py-[30px] px-3 w-[90%] flex flex-col bg-white shadow-lg h-[200px]">
-        <img src="public/assets/images/mission.svg" class="h-[35px]"/>
-        <h3 class="segoe text-text-theme text-[18px] md:text-[24px] font-semibold">Mission</h3>
-        <p class="text-black font-normal text-[12px] md:text-[14px] text-center my-4 font-poppins">To provide our customers services in creating good investment portfolio and in creating generational wealth with ease, through Real Estate.</p>
-    </div>
-    <div class="rounded-tl-[64px] rounded-br-[64px] border border-2 border-primary-theme space-y-2 text-center justify-center w-[90%] flex flex-col bg-primary-theme shadow-lg h-[200px]">
-        <img src="public/assets/images/core-rule.svg" class="h-[35px]"/>
-        <h3 class="segoe text-white text-[18px] md:text-[24px] font-semibold">Core Value</h3>
-        <ul class="text-white font-normal text-[12px] md:text-[14px] text-center my-4 font-poppins list-disc list-inside">
-            <li>Integrity</li> 
-            <li>Diligent to wealth creation</li> 
-            <li>Diversity to Real estate investment</li>
-            <li>Committed to customer growth</li>
-        </ul>
-    </div>
-    <div class="rounded-tl-[64px] rounded-br-[64px] border border-2 border-primary-theme space-y-2 text-center justify-center py-6 px-3 w-[90%] flex flex-col bg-white shadow-lg h-[200px]">
-        <img src="public/assets/images/vision.svg" class="h-[35px]"/>
-        <h3 class="segoe text-text-theme text-[18px] md:text-[24px] font-semibold">Vision</h3>
-        <p class="text-black font-normal text-[12px] md:text-[14px] text-center my-4 font-poppins">To be trusted partners in Real Estate investment.</p>
-    </div>
-</section>
+<MCV />
 <section class="bg-white md:px-12 p-4" id="investment">
     <h3 class="text-[24px] text-center text-text-theme font-bold segoe mx-auto md:w-2/4 mb-4">
         Investment Vehicles
@@ -48,32 +27,32 @@
         <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-8 py-8 space-y-5 h-fit  w-[90%]">
             <h3 class="font-bold text-[48px] text-primary-theme">2M</h3>
             <p>Investment group sold out</p>
-            <button class="btn py-2 px-4 bg-btn-theme text-white">Sold Out</button>
+            <button class="btn py-2 px-4 bg-btn-theme text-white" disabled>Sold Out</button>
         </div>
         <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-8 py-8 space-y-5 h-fit w-[90%]">
             <h3 class="font-bold text-[48px] text-primary-theme">2.5M</h3>
             <p>Investment group sold out</p>
-            <button class="btn py-2 px-4 bg-btn-theme text-white">Sold Out</button>
+            <button class="btn py-2 px-4 bg-btn-theme text-white" disabled>Sold Out</button>
         </div>
         <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-15 py-5 space-y-5 w-[90%]">
-            <h3 class="font-bold text-[62px] text-primary-theme">3.5M</h3>
+            <h3 class="font-bold text-[48px] text-primary-theme">3.5M</h3>
             <ul class="text-justify font-poppins text-[16px]">
                 <li>25% - 875,000</li>
                 <li>50% - 1,750,000</li>
                 <li>75% - 2,625,000</li>
                 <li>100% - 3,500,00</li>
             </ul>
-            <button class="btn py-2 px-4 bg-primary-theme text-white">Join Now</button>
+            <button class="btn py-2 px-4 bg-primary-theme text-white hover:rounded-md hover:bg-primary-2 hover:text-text-theme hover:font-bold">Join Now</button>
         </div>
         <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-15 py-5 space-y-5 w-[90%]">
-            <h3 class="font-bold text-[62px] text-primary-theme">4.5M</h3>
+            <h3 class="font-bold text-[48px] text-primary-theme">4.5M</h3>
             <ul class="text-justify font-poppins text-[14px]">
                 <li>25% - 1,125,000</li>
                 <li>50% - 2,250,000</li>
                 <li>75% - 3,375,000</li>
                 <li>100% - 4,500,000</li>
             </ul>
-            <button class="btn py-2 px-4 bg-primary-theme text-white">Join Now</button>
+            <button class="btn py-2 px-4 bg-primary-theme text-white hover:rounded-md hover:bg-primary-2 hover:text-text-theme hover:font-bold">Join Now</button>
         </div>
     </div>  
 </section>
@@ -93,14 +72,14 @@
         </h3>
         <p>Contact us today and get started on amazing investment offers</p>
     </div>
-    <div class="grid md:grid-cols-3 mt-[5%] space-y-3">
+    <div class="grid md:grid-cols-3 mt-[5%] space-y-[5%]">
         <div class="flex flex-col items-center text-center">
             <div class="flex flex-row space-x-2">
                 <img src="public/assets/images/location.svg" class="md:h-[25px]"/>
                 <h3 class="font-bold text-[14px]">Address</h3>
             </div>
-            <NuxtLink to="https://maps.app.goo.gl/W9VAPME6Zz24GYhx9" class="w-[65%]">
-                No. 7 Deen and Miyls Plaza. River Park Estate,Lugbe FCT Abuja.
+            <NuxtLink to="https://maps.app.goo.gl/W9VAPME6Zz24GYhx9" class="w-[65%] hover:text-primary-theme">
+                No. 7 Deen and Miyls Plaza. River Park Estate, Lugbe FCT Abuja.
             </NuxtLink>
         </div>
         <div class="flex flex-col items-center text-center">
@@ -108,8 +87,8 @@
                 <img src="public/assets/images/phone.svg" class="md:h-[20px]"/>
                 <h3 class="font-bold text-[14px]">Mobile</h3>
             </div>
-            <NuxtLink to="tel://+2348102981776" class="w-[65%]">
-                +234 810 298 1776
+            <NuxtLink to="tel://+2348102981776" class="w-[65%] hover:text-primary-theme">
+                +234 (810) 298 1776
             </NuxtLink>
         </div>
         
@@ -118,7 +97,7 @@
                 <img src="public/assets/images/email.svg" class="md:h-[25px]"/>
                 <h3 class="font-bold text-[14px]">Email</h3>
             </div>
-            <NuxtLink to="mailto://sunsetbrokersinfo@gmail.com" class="w-[65%]">
+            <NuxtLink to="mailto://sunsetbrokersinfo@gmail.com" class="w-[65%] hover:text-primary-theme">
                 sunsetbrokersinfo@gmail.com
             </NuxtLink>
         </div>

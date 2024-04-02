@@ -14,7 +14,7 @@
         </button>
       </h2>
       <div :class="{ 'hidden': !status.open, 'block': status.open }">
-        <div class="py-5 px-3 -mt-[50px] !bg-white shadow border-l-[6px] border-b-1 border-y-grey-700 border-primary-theme">
+        <div class="py-7 md:py-8 px-3 -mt-[50px] !bg-white shadow border-l-[6px] border-b-1 border-y-grey-700 border-primary-theme">
           <p class="mb-2 font-dm text-dm-md !text-black" v-html="description"></p>
         </div>
       </div>
