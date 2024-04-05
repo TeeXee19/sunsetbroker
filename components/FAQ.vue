@@ -8,16 +8,16 @@
  const accordions = [
  { 
      title: 'What is the minimum amount to invest?',
-     description: ' Minimum amount varies based on available plan as at time of investment.'
+     description: 'N650k'
  },{ 
-     title: 'Location of land and properties?',
-     description: 'FCT, Abuja. Lugbe Airport Road, Kiyami, Jahi.'
+     title: 'What is the time duration for the ROI?',
+     description: '12 to 24months base on the type of investment package'
  },{ 
-     title: 'What are the installment payment?',
-     description: '6 months and 12 months payment plan, only available for Group investors.'
+     title: 'Locations of land and properties?',
+     description: 'FCT, Abuja and Adamawa states. <br/> Abuja FCT: Airport road Lugbe, Lifecamp, Kiyami, IDU, Jahi.'
  },{ 
-     title: 'Who owns the property?',
-     description: 'All property are owned by members of the mutual fund or Group investors and Trust-investors.'
+     title: 'Can I invest with a friend?',
+     description: 'Yes, you can invest with friends and family.'
  }
 ];
 

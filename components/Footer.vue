@@ -1,5 +1,5 @@
 <template>
-      <footer class="">
+      <footer class="bg-black">
         <div class="mx-auto w-full max-w-screen-xl py-6 lg:py-10">
             <div class="items-center justify-items-center">
                 <img src="public/assets/images/Logo1.png" class="h-[50px] m-auto" alt="logo" />
@@ -14,11 +14,11 @@
                      <img src="public/assets/images/facebook.svg" class="h-[25px]" />
                     </a>
                 </div>
-                <p class="font-inter text-[12px] font-[300] text-gray-theme2 text-center">
-                    All rights reserved @Sunsetbrokers {{ currentYear }}
+                <p class="font-inter text-[12px] font-[300] text-white text-center">
+                    All rights reserved @Sunsetrealtors {{ currentYear }}
                 </p>
-                <p class="font-inter text-[12px] font-[300] text-gray-theme2 text-center">
-                    By accessing and using this page you agree to the Terms & Condition and the Privacy Policy of Sunset Brokers.
+                <p class="font-inter text-[12px] font-[300] text-white text-center">
+                    By accessing and using this page you agree to the Terms & Condition and the Privacy Policy of Sunset Realtors.
                 </p>
             </div>
         </div>

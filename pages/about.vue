@@ -1,12 +1,14 @@
 <template>
-    <section class="py-8 px-6 md:px-[57px] pb-[80px] bg-[url('public/assets/images/aboutHero.svg')] bg-center bg-cover bg-clip-border bg-no-repeat h-[40vh] flex flex-col-reverse">
+    <section class="py-8 px-6 md:px-[57px] pb-[80px] bg-[url('public/assets/images/aboutHero.svg')] bg-center bg-cover bg-clip-border bg-no-repeat h-[40vh] md:h-[70vh] flex flex-col-reverse">
         <div class="space-y-2 mx-[20px] border-l-[10px] border-primary-theme py-5 px-4">
-            <h3 class="font-lt text-white text-[34px] lg:text-[32px] xl:text-7xl font-bold">About Us</h3>
+            <h3 class="font-lt text-white text-[34px] lg:text-[32px] xl:text-7xl font-bold">About Us!</h3>
+            <p class="text-white font-poppins text-justify md:w-2/4">
+                Sunset Realtors is a real estate brokerage cooperative company that provides services to clients with interested in real estate with our available plans, through land banking and Cooperative joint projects, to create wealth and asset in real estate. We welcome clients from every sphere of life and vocation to join our wealth creation vehicles.
+            </p>
         </div>
     </section>
-    
     <WhatWeDo />
-    
+
     <MCV />
     <section class="justify-items-center items-center py-8 px-2 md:px-2 pb-[80px] mx-[5%] space-y-4">
         <h3 class="font-Mt text-text-theme text-[40px] font-bold text-center ">Competitive Advantage</h3>
@@ -51,12 +53,12 @@
             <img src="public/assets/images/founder.svg" class="w-screen h-[100%]"/>
         </div>
         <div class="space-y-2">
-            <h3 class="font-poppins text-text-theme text-[25px] md:text-[34px] font-extrabold">The Founder’s Story</h3>
+            <h3 class="font-poppins text-text-theme text-[25px] md:text-[34px] font-extrabold">Founder’s Story</h3>
             <p class="font-poppins text-black-900 font-light md:text-[14px] my-4 text-justify">
-                The journey to the real estate sector started in 2020, in the FCT Abuja, Nigeria.  I keenly observed that real estate business is very beneficial when it comes to investment as well as securing a landed property, which in turn can be a hedge against inflation. In the history of Real Estate, I realized that civil servants, middle class, average and low income earners perceive the real estate sector as a rich man's business, which made it hard for them to take advantage of this type of investment. This realization led me to register my company SUNSET REALTORS LTD in 2021, to bring a solution to what seems to be an inequality in the real estate sector.
+                Embarking on my real estate journey in 2020 in Abuja, Nigeria, I encountered the widespread belief that real estate was a luxury reserved for the wealthy. Motivated to challenge this perception, I established SUNSET REALTORS LTD in 2021, driven by a mission to democratize access to real estate. Through initiatives like the Easy Housing Scheme project, we're collaborating to make homeownership attainable for all, aligning with the Sustainable Development Goals to foster inclusive communities where everyone thrives.
                 <br/>                
                 <br/>                
-                At Sunset Realtors we are not only concerned with our customers buying from us, we are also focused on helping to facilitate those with interest but cant afford the offers on the table. With this in view, we resolved to start a co-ownership investment Scheme from land banking to being a land lord by owning a Fractional percentage of the property of interest and gaining passive income in the process.</p>
+                At Sunset Realtors, our commitment extends beyond mere transactions. We're dedicated to facilitating opportunities for those eager to participate but unable to afford conventional offerings. Join us in shaping a future of abundant opportunities and generational wealth reation.</p>
         </div>
     </section>
     </template>

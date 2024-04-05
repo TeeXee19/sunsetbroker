@@ -7,8 +7,8 @@
             </div>
             <div class="col-span-2 space-y-[12%]">
                 <div>
-                    <h3 class="font-Mt text-text-theme text-[20px] md:text-[24px] font-bold">Real estate trust-investors</h3>
-                    <p class="font-poppins text-black-900 md:w-[90%] font-light text-[14px] my-4 text-left h-fit">The real estate Trust-investors are group of investors ready to build an estate affiliated to their names as cooperates investors. The Trust-investors are group of members ready to build a legacy and create wealth in real estate. The Trust-investors’ security is sealed with a deed of trust to work as limited partners with Sunset Realtors. Each member of the Trust Investors has a right of ownership by percentage shareholding.</p>
+                    <h3 class="font-Mt text-text-theme text-[20px] md:text-[24px] font-bold">Mutual Funds</h3>
+                    <p class="font-poppins text-black-900 md:w-[90%] font-light text-[14px] my-4 text-left h-fit">The Mutual Funds also known  as land banking allow customers to buy a landed property with friends and family’s as Fractional investors with each having a 25% share ownership of that property with the purpose of resealing for profit making, with a minimum of 2 and maximum of 4 members on a plot.</p>
                 </div>
                 <div class="">
                     <button class="btn bg-primary-theme p-3 text-white">Order Now</button>
@@ -21,8 +21,8 @@
             </div>
             <div class="col-span-2 space-y-[12%]">
                 <div>
-                    <h3 class="font-Mt text-text-theme text-[20px] md:text-[24px] font-bold">REAL ESTATE INVESTMENT GROUP</h3>
-                    <p class="font-poppins text-black-900 md:w-[67%] font-light text-[14px] my-4 text-left">The real estate investment group is an investment vehicle that provides clients with opportunity to invest in building projects as joint investors. Projects such as malls, hotels, single residential or block of flats to create an asset as joint investors in real estate. Under this group, the cooperative members build to generate passive income through rentals or wholesaling. Right to ownership by percentage shareholdings.</p>
+                    <h3 class="font-Mt text-text-theme text-[20px] md:text-[24px] font-bold">Group Investment Vehicle</h3>
+                    <p class="font-poppins text-black-900 md:w-[67%] font-light text-[14px] my-4 text-left">GROUP INVESTMENT gives opportunities for those that build to flip. They can leverage on this vehicle and diversify their seed capital investment with just paying 25% to 50% cost of construction to generate income after property is sold off. A single project can be owned by multiple investors with the same or similar interest.</p>
                 </div>
 
                 <div>
@@ -36,8 +36,8 @@
             </div>
             <div class="col-span-2 space-y-[12%]">
                 <div>
-                    <h3 class="font-Mt text-text-theme text-[18px] md:text-[24px] font-bold">REAL ESTATE MUTUAL FUNDS</h3>
-                    <p class="font-poppins text-black-900 md:w-[67%] font-light text-[14px] my-4 text-left">The mutual funds investment, also known as the land banking. It also referred to as the “buy and hold investment”. This investment gives clients opportunity to leverage on land presales. Client can own a share percentage of a land as shareholders with a minimum of 25% price value of that land. Owning a property with friends and family to generate passive income. Group of 2 to 4 friends or family members can subscribe to our Walk in Wealth plan and own a property for passive income.</p>
+                    <h3 class="font-Mt text-text-theme text-[18px] md:text-[24px] font-bold">Trust Investors</h3>
+                    <p class="font-poppins text-black-900 md:w-[67%] font-light text-[14px] my-4 text-left">TRUST-INVESTORS are known to be landlords. They are clients with interest to own a property for the purpose of getting returns through rentals cash flow, With this vehicle. a client can pay just 25% to 50% cost value of a property and begin to generate returns through rentals, which is proportional to what the client invested on the property.</p>
                 </div>
                 
                 <div>

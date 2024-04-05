@@ -1,5 +1,5 @@
 <template>
-<nav id="navigation" class="bg-white py-4 sm:px-0 md:px-0 md:py-2 sticky top-0 z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500  border-b border-200">
+<nav id="navigation" class="bg-black py-4 sm:px-0 md:px-0 md:py-2 sticky top-0 z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500  border-b border-200">
     <div class="flex gap-8 items-center justify-between flex-wrap py-2 pt-0 pb-0 max-w-7xl mx-auto px-2 md:px-0">
 
         <NuxtLink to="/" class="flex items-center flex-no-shrink ">
@@ -20,7 +20,7 @@
             </button>
         </div>
         <div :class="{ hidden: !isVisible }" class="gap-8 md:flex md:items-center md:w-auto md:ml-10 justify-between">
-            <div class="flex gap-8 space-x-6 p-4 pb-0 md:p-0 mt-4 flex-col md:flex-row md:mt-0 font-lt font-light normal text-lt-base text-text-theme">
+            <div class="flex gap-8 space-x-6 p-4 pb-0 md:p-0 mt-4 flex-col md:flex-row md:mt-0 font-lt font-light normal text-lt-base text-white">
                 <NuxtLink to="/" class="block hover:border-b-2 hover:border-primary-theme">
                     Home
                 </NuxtLink>
