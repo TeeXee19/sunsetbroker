@@ -6,10 +6,10 @@
     <div class="space-y-2 w-100">
         <h3 class="segoe text-text-theme text-[24px] md:text-[32px] font-semibold">Service (What We Do)</h3>
         <ul class="text-black font-normal text-[12px] md:text-[16px] text-justify my-4 font-poppins list-decimal list-outside">
-          <li>Integrity</li> 
-          <li>Diligent to wealth creation</li> 
-          <li>Diversity to Real estate investment</li>
-          <li>Committed to customer growth</li>
+          <li>Real Estate Investment Vehicles</li>
+          <li>Easy Housing Scheme</li>
+          <li>Property Management </li>
+          <li>Real Estate Brokers</li>
         </ul>
     </div>
 </section>

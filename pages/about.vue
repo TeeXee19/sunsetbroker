@@ -7,8 +7,6 @@
             </p>
         </div>
     </section>
-    <WhatWeDo />
-
     <MCV />
     <section class="justify-items-center items-center py-8 px-2 md:px-2 pb-[80px] mx-[5%] space-y-4">
         <h3 class="font-Mt text-text-theme text-[40px] font-bold text-center ">Competitive Advantage</h3>

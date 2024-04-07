@@ -11,48 +11,60 @@
 </section>
 
 <WhatWeDo />
-
-<MCV />
 <section class="bg-white md:px-12 p-4" id="investment">
     <h3 class="text-[24px] text-center text-text-theme font-bold segoe mx-auto md:w-2/4 mb-4">
         Investment Vehicles
     </h3>
     <Slider />
 </section>
+
+<section class="grid md:grid-cols-2 justify-items-center items-center py-8 px-6 md:px-[57px] md:pb-[80px]">
+    <div class="w-[65%] hidden md:block">
+        <img src="public/assets/images/easy-housing.png" class="w-screen h-[100%]"/>
+    </div>
+    <div class="space-y-2 w-100">
+        <h3 class="segoe text-text-theme text-[24px] md:text-[32px] font-semibold">Easy Housing</h3>
+        <p class="font-poppins text-black-900 md:w-[70%] font-normal text-[14px] my-4 text-jutify">The Easy housing Scheme is an innovative program toward solving the housing deficit in Nigeria using the SDGs Global goals standards. The Easy housing Scheme in an integrated system of proving affordable housing and Agriculture programs towards proving a good livelihood.</p>
+    </div>
+</section>
+<section class="grid md:grid-cols-2 justify-items-center items-center py-8 px-6 md:px-[57px] md:pb-[80px]">
+    <div class="w-[65%] hidden md:block">
+        <img src="public/assets/images/wwd.svg" class="w-screen h-[100%]"/>
+    </div>
+    <div class="space-y-2 w-100">
+        <h3 class="segoe text-text-theme text-[24px] md:text-[32px] font-semibold">Property Management</h3>
+        <p class="font-poppins text-black-900 md:w-[70%] font-normal text-[14px] my-4 text-jutify">Property management involves overseeing and managing residential, commercial, or industrial properties on behalf of property owners. It encompasses various tasks related to property maintenance. tenant relations, and financial management.
+        </p>
+    </div>
+</section>
 <section class="bg-gray-theme md:p-[6.5%] p-4" id="offers">
         <h3 class="text-[19px] md:text-[26px] text-center text-gray-2 font-bold font-Mt mx-auto md:w-2/5">
-            Percentage Share Ownership Mutual Funds Investment
+            Reviews From Our Clients
         </h3>
-    <div class="grid md:grid-cols-4 gap-2 mt-[5%] justify-items-center">
-        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-8 py-8 space-y-5 h-fit  w-[90%]">
-            <h3 class="font-bold text-[48px] text-primary-theme">2M</h3>
-            <p>Investment group sold out</p>
-            <button class="btn py-2 px-4 bg-btn-theme text-white" disabled>Sold Out</button>
+    <div class="grid md:grid-cols-3 gap-2 mt-[5%] justify-items-center">
+        <div class="flex flex-col items-center text-center bg-gradient-to-t from-[#063d6f] to-[#091e31] text-white shadow-lg rounded-[15px] px-8 py-10 space-y-5  w-[90%]">
+            <p class="h-[80%]">"The services so far have been fantastic! I can't wait for 18 months to enable me to move into my new apartment!"
+                </p>
+            <div class="h-[20%]">
+                <p>Mr Paul Oseyi Oriwoh</p>
+                <p>Client</p>
+            </div>
         </div>
-        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-8 py-8 space-y-5 h-fit w-[90%]">
-            <h3 class="font-bold text-[48px] text-primary-theme">2.5M</h3>
-            <p>Investment group sold out</p>
-            <button class="btn py-2 px-4 bg-btn-theme text-white" disabled>Sold Out</button>
+        <div class="flex flex-col items-center text-center bg-gradient-to-t from-[#063d6f] to-[#091e31] text-white shadow-lg rounded-[15px] px-8 py-10 space-y-5  w-[90%]">
+            <p class="h-[80%]">"I have been privileged to work where a lot of developers are reported for fraud and other vices, Mshel has NEVER been one on my register. I was very satisfied with my purchase!"
+                </p>
+            <div class="h-[20%]">
+                <p>Mustapha Sulaiman</p>
+                <p>Client</p>
+            </div>
         </div>
-        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-15 py-5 space-y-5 w-[90%]">
-            <h3 class="font-bold text-[48px] text-primary-theme">3.5M</h3>
-            <ul class="text-justify font-poppins text-[16px]">
-                <li>25% - 875,000</li>
-                <li>50% - 1,750,000</li>
-                <li>75% - 2,625,000</li>
-                <li>100% - 3,500,00</li>
-            </ul>
-            <button class="btn py-2 px-4 bg-primary-theme text-white hover:rounded-md hover:bg-primary-2 hover:text-text-theme hover:font-bold">Join Now</button>
-        </div>
-        <div class="flex flex-col items-center text-center bg-white shadow-lg rounded-[15px] px-15 py-5 space-y-5 w-[90%]">
-            <h3 class="font-bold text-[48px] text-primary-theme">4.5M</h3>
-            <ul class="text-justify font-poppins text-[14px]">
-                <li>25% - 1,125,000</li>
-                <li>50% - 2,250,000</li>
-                <li>75% - 3,375,000</li>
-                <li>100% - 4,500,000</li>
-            </ul>
-            <button class="btn py-2 px-4 bg-primary-theme text-white hover:rounded-md hover:bg-primary-2 hover:text-text-theme hover:font-bold">Join Now</button>
+        <div class="flex flex-col items-center text-center bg-gradient-to-t from-[#063d6f] to-[#091e31] text-white shadow-lg rounded-[15px] px-8 py-10 space-y-5  w-[90%]">
+            <p class="h-[80%]">"I couldn't be more impressed from buying a property with your company and I am more likely to buy more!"
+                </p>
+            <div class="h-[20%]">
+                <p>Oghani Joel Elo</p>
+                <p>Client</p>
+            </div>
         </div>
     </div>  
 </section>
