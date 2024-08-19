@@ -76,22 +76,22 @@
           <div
             class="flex flex-col md:flex-row gap-8 p-4 md:p-0 md:mt-0 font-lt font-light normal text-lt-base text-white"
           >
-            <NuxtLink to="/" class="block hover:border-b-2 hover:border-primary-theme">
+            <NuxtLink to="/" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Home
             </NuxtLink>
-            <NuxtLink to="/about" class="block hover:border-b-2 hover:border-primary-theme">
+            <NuxtLink to="/about" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               About Us
             </NuxtLink>
-            <a href="#investment" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="#investment" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Investment Vehicles
             </a>
-            <a href="/#offers" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="/#offers" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Offers
             </a>
-            <a href="#demo" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="#demo" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Investors Club
             </a>
-            <a href="#contact" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="#contact" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Contact
             </a>
           </div>
@@ -121,6 +121,10 @@
   watch(isVisible, () => {
     emitHeight();
   });
+
+  const closeMenu = () => {
+  isVisible.value = false;
+};
   
   const emitHeight = () => {
     if (navbar.value) {
