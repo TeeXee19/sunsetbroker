@@ -1,5 +1,5 @@
 <template>
-    <section class="py-8 px-6 md:px-[57px] pb-[80px] bg-[url('public/assets/images/aboutHero.svg')] bg-center bg-cover bg-clip-border bg-no-repeat h-[40vh] md:h-[70vh] flex flex-col-reverse">
+    <section class="md:py-8 px-3 md:px-[57px] pb-[30px] md:pb-[80px] bg-[url('public/assets/images/aboutHero.svg')] bg-center bg-cover bg-clip-border bg-no-repeat h-[60vh] md:h-[70vh] flex flex-col-reverse">
         <div class="space-y-2 mx-[20px] border-l-[10px] border-primary-theme py-5 px-4">
             <h3 class="font-lt text-white text-[34px] lg:text-[32px] xl:text-7xl font-bold">About Us!</h3>
             <p class="text-white font-poppins text-justify md:w-2/4">
