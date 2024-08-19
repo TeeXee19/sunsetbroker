@@ -5,15 +5,17 @@
       class="bg-black py-4 sm:px-0 md:px-0 md:py-2 fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500 border-b border-200"
     >
       <div class="flex items-center justify-between flex-wrap max-w-7xl mx-auto px-2 md:px-0">
-        <NuxtLink to="/" class="flex items-center flex-no-shrink">
+        <!-- Logo -->
+        <NuxtLink to="/" class="flex items-center flex-shrink-0">
           <img
             src="public/assets/images/Logo1.png"
-            class="h-[20px] md:h-[30px] w-fit"
+            class="h-[20px] md:h-[30px] w-auto"
             alt="logo"
             title="Go Home"
           />
         </NuxtLink>
   
+        <!-- Mobile Menu Button -->
         <div class="block md:hidden">
           <button
             type="button"
@@ -62,13 +64,14 @@
           </button>
         </div>
   
+        <!-- Desktop Menu -->
         <div
           :class="{
             'hidden': !isVisible,
             'absolute': isVisible,
             'block': isVisible,
           }"
-          class="top-full left-0 w-full bg-black md:relative md:flex md:w-auto md:ml-10 justify-between"
+          class="top-full left-0 w-full bg-black md:relative md:flex md:w-auto md:ml-10 md:items-center"
         >
           <div
             class="flex flex-col md:flex-row gap-8 p-4 pb-0 md:p-0 md:mt-0 font-lt font-light normal text-lt-base text-white"
@@ -100,11 +103,10 @@
   <script lang="ts" setup>
   import { ref, onMounted, watch } from 'vue';
   
-  const isVisible = ref(false);
-  const navbar = ref(null);
-  
-  // Define the emit function using defineEmits
+  // Emit the navbar height
   const emit = defineEmits(['update:navbarHeight']);
+  const isVisible = ref(false);
+  const navbar = ref<HTMLElement | null>(null);
   
   const toggleVisibility = () => {
     isVisible.value = !isVisible.value;
