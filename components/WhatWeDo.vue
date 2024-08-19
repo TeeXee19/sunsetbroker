@@ -1,5 +1,5 @@
 <template>
-  <section class="grid md:grid-cols-2 justify-items-center items-center py-8 px-6 md:px-[57px] md:pb-[80px]">
+  <section class="grid md:grid-cols-2 justify-items-center items-center py-8 px-6 md:px-[57px] md:pb-[80px]" id="services">
     <div class="w-[65%] hidden md:block">
         <img src="public/assets/images/wwd.svg" class="w-screen h-[100%]"/>
     </div>

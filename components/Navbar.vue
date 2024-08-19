@@ -85,7 +85,7 @@
             <a href="/#investment" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Investment Vehicles
             </a>
-            <a href="/#offers" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="/#services" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Offers
             </a>
             <a href="/#demo" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
