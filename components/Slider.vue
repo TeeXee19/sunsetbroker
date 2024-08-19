@@ -11,7 +11,7 @@
                     <p class="font-poppins text-black-900 md:w-[90%] font-light text-[14px] my-4 text-left h-fit">The Mutual Funds also known  as land banking allow customers to buy a landed property with friends and family’s as Fractional investors with each having a 25% share ownership of that property with the purpose of resealing for profit making, with a minimum of 2 and maximum of 4 members on a plot.</p>
                 </div>
                 <div class="">
-                    <button class="btn bg-primary-theme p-3 text-white">Order Now</button>
+                   <NuxtLink to="/#contact" class="btn bg-primary-theme p-3 text-white">Order Now</NuxtLink>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                 </div>
                 
                 <div>
-                    <button class="btn bg-primary-theme p-3 text-white">Order Now</button>
+                   <NuxtLink to="/#contact" class="btn bg-primary-theme p-3 text-white">Order Now</NuxtLink>
                 </div>
             </div>
         </div>
