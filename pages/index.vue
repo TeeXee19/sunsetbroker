@@ -3,7 +3,7 @@
     <div class="space-y-2 md:mx-[20px] w-[100%] md:p-2">
         <h3 class="segoe text-text-theme text-[24px] lg:text-[48px] xl:text-6xl font-bold">Sunset Realtors</h3>
         <p class="font-poppins text-black lg:w-3/4 xl:w-4/6 font-light text-[14px] text-justify my-4">We exist to provide world-class real estate’s services in the area of our core competence leaving our clients happy, knowing that we helped them to create sustainable generational wealth.</p>
-        <button class="btn bg-primary-theme rounded-[4px] py-2 px-6 text-white font-poppins">Book a free appointment</button>
+        <NuxtLink to="/#contact" class="btn bg-primary-theme rounded-[4px] py-2 px-6 text-white font-poppins">Book a free appointment</NuxtLink>
     </div>
     <div class="w-[75%] hidden md:block">
         <img src="public/assets/images/hero.svg" class="w-screen h-[100%]"/>

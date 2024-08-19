@@ -26,7 +26,7 @@
                 </div>
 
                 <div>
-                    <button class="btn bg-primary-theme p-3 text-white">Order Now</button>
+                    <NuxtLink to="/#contact" class="btn bg-primary-theme p-3 text-white">Order Now</NuxtLink>
                 </div>
             </div>
         </div>
