@@ -9,7 +9,7 @@
         <NuxtLink to="/" class="flex items-center flex-shrink-0">
           <img
             src="public/assets/images/Logo1.png"
-            class="h-[20px] md:h-[30px] w-auto"
+            class="h-[40px] md:h-[30px] w-auto"
             alt="logo"
             title="Go Home"
           />
