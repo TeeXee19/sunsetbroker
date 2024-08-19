@@ -74,7 +74,7 @@
           class="top-full left-0 w-full bg-black md:relative md:flex md:w-auto md:ml-10 md:items-center"
         >
           <div
-            class="flex flex-col md:flex-row gap-8 p-4 pb-0 md:p-0 md:mt-0 font-lt font-light normal text-lt-base text-white"
+            class="flex flex-col md:flex-row gap-8 p-4 md:p-0 md:mt-0 font-lt font-light normal text-lt-base text-white"
           >
             <NuxtLink to="/" class="block hover:border-b-2 hover:border-primary-theme">
               Home
