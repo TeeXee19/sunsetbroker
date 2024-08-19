@@ -82,16 +82,16 @@
             <NuxtLink to="/about" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               About Us
             </NuxtLink>
-            <a href="#investment" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="/#investment" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Investment Vehicles
             </a>
             <a href="/#offers" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Offers
             </a>
-            <a href="#demo" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="/#demo" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Investors Club
             </a>
-            <a href="#contact" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
+            <a href="/#contact" @click="closeMenu" class="block hover:border-b-2 hover:border-primary-theme">
               Contact
             </a>
           </div>
